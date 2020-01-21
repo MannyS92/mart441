@@ -20,26 +20,58 @@ body {
   text-align: center;
   padding: 45px;
 }
-
+/* State of Links */
 .nav {
   text-align: center;
+}
 
+.nav-item{
+  display: inline;
+  font-family: "oswald"
+}
+
+a:link {
+  color: white;
+}
+
+ a:visited {
+  color: pink;
+}
+
+
+a:hover {
+  color: #444;
+}
+
+a:active {
+  color: #777;
 
 }
 
+
+/* End State of links*/
 h2 {
   font-family: "mont";
   text-align: center;
 }
 
 #about-contain, #why-contain {
-
-
   padding: 85px;
   font-family: "oswald";
   text-align: center;
   background-color: white;
   opacity: .8;
+
+}
+
+.quote {
+  text-align: center;
+  margin-top: 125px;
+  color: #111;
+  font-family: "oswald";
+  font-weight: bolder;
+  background: rgba(255,255,255,.45);
+
 
 }
 
