@@ -1,6 +1,47 @@
 
 
+body {
+  background-color: #333;
+}
 
+@font-face {
+  font-family: "mont";
+  src: url("fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("fonts/Oswald-Light.ttf");
+}
+
+#name-container {
+  font-family: "mont";
+  background-color: white;
+  text-align: center;
+  padding: 45px;
+}
+
+.nav {
+  text-align: center;
+
+
+}
+
+h2 {
+  font-family: "mont";
+  text-align: center;
+}
+
+#about-contain, #why-contain {
+
+
+  padding: 85px;
+  font-family: "oswald";
+  text-align: center;
+  background-color: white;
+  opacity: .8;
+
+}
 
 
 
