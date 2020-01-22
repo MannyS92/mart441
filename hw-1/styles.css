@@ -19,19 +19,25 @@ body {
   background-color: white;
   text-align: center;
   padding: 45px;
+  font-size: 200%;
 }
 /* State of Links */
 .nav {
   text-align: center;
+
 }
 
 .nav-item{
   display: inline;
-  font-family: "oswald"
+  font-family: "oswald";
+  font-size: 200%;
+  margin-right: 20px;
+  margin-left:20px;
 }
 
 a:link {
   color: white;
+  text-decoration: none;
 }
 
  a:visited {
@@ -55,26 +61,44 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 500px) {
+    #about-contain, #why-contain {
+        font-size: 10pt;
+    }
+}
+
 #about-contain, #why-contain {
   padding: 85px;
   font-family: "oswald";
+  font-size: 150%;
   text-align: center;
   background-color: white;
   opacity: .8;
 
 }
 
-.quote {
+.quote-contain {
   text-align: center;
-  margin-top: 125px;
-  color: #111;
-  font-family: "oswald";
-  font-weight: bolder;
-  background: rgba(255,255,255,.45);
-
 
 }
 
+.quote {
+  margin-top: 125px;
+  font-size: 150%;
+  color: #111;
+  font-family: "oswald";
+  font-weight: bolder;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: rgba(255,255,255,.45);
+  display:inline-block;
+}
+
+@media (max-width: 100px) {
+    .nav, .about-hero, .why-hero {
+        min-height: 340px;
+    }
+}
 
 
 .nav {
