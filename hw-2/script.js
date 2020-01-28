@@ -1,0 +1,12 @@
+console.log('My 3 Favorite Websites');
+console.log('Facebook');
+console.log('Google');
+console.log('Amazon');
+console.log('My 3 Favorite Games');
+console.log('Last of Us');
+console.log('Fallout');
+console.log('Skyrim');
+console.log('My 3 Favorite Artists');
+console.log('Keith Haring');
+console.log('Ray Charles');
+console.log('Akira Kurosawa');
