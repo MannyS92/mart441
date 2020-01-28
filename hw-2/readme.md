@@ -11,3 +11,8 @@ Another thing I would like to add would be one of those counters that shows how 
 As far as javascript goes, alot of it is starting to come back to me from when I took creative coding, but I still have so much I need to practice with it.
 
 Overall, this assignment was easier than last weeks, as I was able to just build on from what I had already done last week. But I find in order to really bring my idea into fruition, there is still a lot I want to do.
+
+
+
+
+Edit: After going to my website from github, the music is autoplaying, So I am not too sure what is going on with it.I went ahead and left the music player on the page so that the music will work in some other browsers.
