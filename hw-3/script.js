@@ -15,10 +15,10 @@ var yourName = prompt( "What is your name ?","");
 
 function dungeonGame(){
 
-  var letsPlay = alert( yourName + " \ You wake up and are in a strangeland. In front of you is an old book covered in moss and smells like smoke. Do you open it ?");
+  var letsPlay = confirm( yourName + " \ You wake up and are in a strangeland. In front of you is an old book covered in moss and smells like smoke. Do you open it ?");
 
 
-  if(letsPlay == "yes") {
+  if(letsPlay == true) {
     var bookOpen = confirm("When you open the book,the world becomes dark again and you are transported into the middle of medevil dungeon. In front of you is a skeleton holding onto a sword. Do you grab the sword ?");
   }
 
@@ -43,7 +43,7 @@ function dungeonGame(){
    var giveUp;
  }
  if(swordCommand == "yes"){
-  prompt("Congratulations you begun your journey to the dark side, stay tuned for more");
+  prompt("Congratulations you have begun your journey to the dark side, stay tuned for more");
  }
  else{
    alert("I find your inability to follow rules, frustrating");
