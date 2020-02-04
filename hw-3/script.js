@@ -10,10 +10,15 @@ console.log('My 3 Favorite Artists');
 console.log('Keith Haring');
 console.log('Ray Charles');
 console.log('Akira Kurosawa');*/
-function dungeonGame(){
-  var letsPlay = confirm("You wake up and are in a strangeland. In front of you is an old book covered in moss and smells like smoke. Do you open it ?");
 
-  if(letsPlay == true) {
+var yourName = prompt( "What is your name ?","");
+
+function dungeonGame(){
+
+  var letsPlay = alert( yourName + " \ You wake up and are in a strangeland. In front of you is an old book covered in moss and smells like smoke. Do you open it ?");
+
+
+  if(letsPlay == "yes") {
     var bookOpen = confirm("When you open the book,the world becomes dark again and you are transported into the middle of medevil dungeon. In front of you is a skeleton holding onto a sword. Do you grab the sword ?");
   }
 
@@ -38,9 +43,9 @@ function dungeonGame(){
    var giveUp;
  }
  if(swordCommand == "yes"){
-   alert("Congratulations you begun your journey to the dark side, stay tuned for more");
+  prompt("Congratulations you begun your journey to the dark side, stay tuned for more");
  }
  else{
-   alert("I find your inability to follow rules, frustrationg");
+   alert("I find your inability to follow rules, frustrating");
  }
 }
