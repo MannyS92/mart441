@@ -15,11 +15,11 @@ var yourName = prompt( "What is your name ?","");
 
 function dungeonGame(){
 
-  var letsPlay = confirm( yourName + " \ You wake up and are in a strangeland. In front of you is an old book covered in moss and smells like smoke. Do you open it ?");
+  var letsPlay = confirm( yourName + " \ You wake up and are in a strangeland. In front of you is an old book covered in moss and that smells like fire and brimstone. Do you open it ?");
 
 
   if(letsPlay == true) {
-    var bookOpen = confirm("When you open the book,the world becomes dark again and you are transported into the middle of medevil dungeon. In front of you is a skeleton holding onto a sword. Do you grab the sword ?");
+    var bookOpen = confirm("When you open the book,the world becomes dark again and you are transported into the middle of a medieval dungeon. In front of you is a skeleton holding onto a sword. Do you grab the sword ?");
   }
 
   else{
