@@ -6,7 +6,7 @@ body {
 
 #dungeon-home {
 
-  background-image: url(../hw-2/images-2/wall.jpg);
+  background-image: url(../hw-3/images-2/wall.jpg);
   font-family: "mont";
 }
 
@@ -69,7 +69,7 @@ a:active {
 }
 
 .dun-riddle {
-  
+
   color: white;
   text-align: center;
   font-family: "old";
