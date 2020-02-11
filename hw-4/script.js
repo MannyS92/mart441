@@ -1,6 +1,6 @@
- theWhileLoop(true);
+ caseSensitive(true);
 
- function theWhileLoop(letsKeepLooping) {
+ function caseSensitive(letsKeepLooping) {
 
       do{
         console.log("Remember Answers are case sensitive");
