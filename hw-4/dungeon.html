@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="../hw-1/styles.css">
+  <meta charset="utf-8">
+  <title>Dungeon of my favorite things</title>
+  <script type="text/javascript" src="script.js">
+  </script>
+</head>
+
+<body id="dungeonHome">
+
+  <div class="dun-riddle">
+    <h1>Dungeon Battle</h1>
+    
+    <p id="playerBeginText">To Begin Enter Your Name</p>
+
+    <br></br>
+    <audio id="player" autoplay loop controls>
+      <source src="music/dungeon.mp3" type="audio/mp3">
+    </audio>
+    <div id="textBox">
+      <br>
+      <button inputtype="submit" id="button1" onclick="myOption()">Send</button>
+      <input type="text" id="option1" placeholder="Name">
+
+      <button inputtype="submit" id="button2" onclick="myOptions2()" style="display:none">Send</button>
+      <input type="text" placeholder="Yes or No ?" id="option2" style="display:none">
+
+      <button inputtype="submit" id="button3" onclick="myOptions3()" style="display:none">Send</button>
+      <input type="text" placeholder="Tunnel or Door" id="option3" style="display:none">
+
+      <button inputtype="submit" id="button4" onclick="myOptions4()" style="display:none">Send</button>
+      <input type="text" placeholder="Yes or No ?" id="option4" style="display:none">
+
+      <button inputtype="submit" id="button5" onclick="myOptions5()" style="display:none">Send</button>
+      <input type="text" placeholder="Keep Going or Go Back ?" id="option5" style="display:none">
+
+      <button inputtype="submit" id="button6" onclick="myOptions6()" style="display:none">Send</button>
+      <input type="text" placeholder="Yes or No?" id="option6" style="display:none">
+    </div>
+    <br>
+    <p id="story"></p>
+    <a href="dungeon.html">
+      <div class="nav-item" id="restart" style="display:none">Restart</div>
+    </a>
+  </div>
+
+
+
+
+</body>
+
+</html>
