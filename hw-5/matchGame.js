@@ -11,12 +11,9 @@ function showBlank()
 
     for(var i = 0; i < imageTags.length; i++)
     {
-
         document.getElementById(imageTags[i]).src= actualBlank;
     }
   }
-
-
 
   function createRandomImageArray()
   {
