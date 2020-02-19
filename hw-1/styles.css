@@ -1,7 +1,12 @@
 
 
-body {
+#indexBody {
   background-color: #333;
+}
+
+#matchBody {
+  background: radial-gradient(#111, #777);
+
 }
 
 #dungeonHome {
@@ -9,8 +14,6 @@ body {
   background-image: url(../hw-4/images-2/wall.jpg);
   font-family: "mont";
 }
-
-
 
 
 @font-face {
@@ -69,7 +72,7 @@ a:active {
   color: #777;
 
 }
-
+/*DungeonGame*/
 .dun-riddle {
 
   color: white;
@@ -85,6 +88,18 @@ a:active {
 #story{
     font-family: "Times New Roman", Times, serif;
     font-size: 20pt;
+}
+
+/*Matching Game*/
+
+#matchTitle {
+  text-align: center;
+  font-family: "mont";
+}
+
+.grid-container {
+  display: inline-grid;
+
 }
 
 
