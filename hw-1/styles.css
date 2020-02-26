@@ -4,7 +4,7 @@
   background-color: #333;
 }
 
-#matchBody {
+#matchBody, #display {
   background: radial-gradient(#111, #777);
 
 }
@@ -54,6 +54,11 @@
   margin-left:20px;
 }
 
+#display {
+  font-size: 200%;
+  color: white;
+}
+
 a:link {
   color: white;
   text-decoration: none;
@@ -92,7 +97,7 @@ a:active {
 
 /*Matching Game*/
 
-#matchTitle {
+#matchTitle, #display {
   text-align: center;
   font-family: "mont";
 }
@@ -102,6 +107,9 @@ a:active {
 
 }
 
+.divTableCell {
+  display: inline-block;
+}
 
 /* End State of links*/
 h2 {
