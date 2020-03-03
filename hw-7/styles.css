@@ -1,0 +1,16 @@
+
+#mainBody {
+  font-size: 300%;
+  text-align: center;
+  background-image: url('images/viewfinder.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5px;
+  font-family: "fut";
+
+}
+
+@font-face {
+  font-family: "fut";
+  src: url("fonts/futura.ttf");
+}
