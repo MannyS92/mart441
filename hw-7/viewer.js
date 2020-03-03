@@ -48,11 +48,11 @@ class PhotoViewer
 function initializeArray()
 {
 
-    var myPhotoViewer = new PhotoViewer("Hippopotamus and Performer","images/photo1.jpeg","Mary Ellen Mark","1989","A performer in india with her Hippo");
+    var myPhotoViewer = new PhotoViewer("Hippopotamus and Performer",'images/photo1.jpeg',"Mary Ellen Mark","1989","A performer in india with her Hippo");
     var myPhotoViewer1 = new PhotoViewer("Man with Bees",'images/photo2.jpg',"Richard Avedon","1978","A man covered with bees");
     var myPhotoViewer2 = new PhotoViewer("Country Doctor",'images/photo3.jpg',"Eugene Smith", "1950","From photo essay about a country doctor");
-    var myPhotoViewer3 = new PhotoViewer("Street Portrait",'images/photo4.jpg',"Vivian Maer","1956","A street portrait on the of a woman");
-    var myPhotoViewer4 = new PhotoViewer("Stravinsky",'images/photo5.jpg',"Arnold Newman","1953","A portrait of the composer Stravinsky");
+    var myPhotoViewer3 = new PhotoViewer("Street Portrait",'images/photo5.jpg',"Vivian Maer","1956","A street portrait on the of a woman");
+    var myPhotoViewer4 = new PhotoViewer("Stravinsky",'images/photo4.jpg',"Arnold Newman","1953","A portrait of the composer Stravinsky");
   myPhotoViewArray.push(myPhotoViewer);
   myPhotoViewArray.push(myPhotoViewer1);
   myPhotoViewArray.push(myPhotoViewer2);
@@ -71,7 +71,7 @@ function accessInformation()
   var randomViewArray = myPhotoViewArray[Math.floor(Math.random()*myPhotoViewArray.length)];
 
   document.getElementById("title").innerHTML = randomViewArray.theTitle;
-  document.getElementById("image").innerHTML = randomViewArray.theImage;
+  document.getElementById("image").src = randomViewArray.theImage;
   document.getElementById("author").innerHTML = randomViewArray.theAuthor;
   document.getElementById("date").innerHTML = randomViewArray.theDate;
   document.getElementById("description").innerHTML = randomViewArray.theDescription;

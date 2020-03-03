@@ -1,16 +1,38 @@
+#btnSubmit {
+  width: 12.5%;
+height: 12.5%;
+padding: 0;
+border: 0;
+margin: 1px;
+}
+
 
 #mainBody {
-  font-size: 300%;
+  font-size: 200%;
   text-align: center;
   background-image: url('images/viewfinder.png');
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 5px;
+  padding: 0;
+  margin: 1px;
+  border: 0;
   font-family: "fut";
+}
 
+#btnSubmit {
+  width: 12.5%;
+height: 12.5%;
+padding: 0;
+border: 0;
+margin: 1px;
 }
 
 @font-face {
   font-family: "fut";
   src: url("fonts/futura.ttf");
+}
+
+#image {
+  width: 25%;
+  height: 25%;
 }
