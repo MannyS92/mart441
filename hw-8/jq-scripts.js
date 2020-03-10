@@ -1,6 +1,6 @@
 jQuery(
    function(){
-     var cardTitle = [
+     var starTitle = [
        "You are Capt.Kirk",
        "You are Capt.Picard",
        "You are Dr.Crusher",
@@ -8,14 +8,14 @@ jQuery(
        "You are Worf"
       ];
 
-     var cardDesc = [];
-       cardDesc[0] = "You are Brave and Fearless";
-       cardDesc[1] = "You are Wise and Curious";
-       cardDesc[2] = "You are Smart and Sensible";
-       cardDesc[3] = "You are a Doctor not a Computer engineer";
-       cardDesc[4] = "You are Strong and Unflynching";
+     var starDesc = [];
+       starDesc[0] = "You are Brave and Fearless";
+       starDesc[1] = "You are Wise and Curious";
+       starDesc[2] = "You are Smart and Sensible";
+       starDesc[3] = "You are a Doctor not a Computer engineer";
+       starDesc[4] = "You are Strong and Unflynching";
 
-     var drawCard = [
+     var ranPick = [
        "images/img1.jpg",
        "images/img2.jpg",
        "images/img3.jpeg",
@@ -26,12 +26,12 @@ jQuery(
     $("#myBtn").click(
 
       function(){
-        var drawNum = Math.floor(Math.random() * drawCard.length);
-        $("#title").html(cardTitle[drawNum]);
-        $("#desc").html(cardDesc[drawNum]);
+        var drawNum = Math.floor(Math.random() * ranPick.length);
+        $("#title").html(starTitle[drawNum]);
+        $("#desc").html(starDesc[drawNum]);
         $("#showImage").fadeOut(
           function(){
-            $(this).attr('src', drawCard[drawNum])
+            $(this).attr('src', ranPick[drawNum])
             .fadeIn();
           }
         ); // end fadeOut
