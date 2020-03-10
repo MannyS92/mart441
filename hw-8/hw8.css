@@ -1,0 +1,65 @@
+
+body {
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+}
+
+
+}
+
+#showImage {
+  max-width: 75%;
+  max-height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+#triangle {
+  width: 0;
+ height: 0;
+ border-left: 50px solid transparent;
+ border-right: 50px solid transparent;
+ border-top: 100px solid #555;
+ position: absolute;
+left: 0;
+  top: 300;
+  display: none;
+
+}
+
+
+
+
+#square {
+   width: 70px;
+   height: 30px;
+   background: GoldenRod;
+   position: absolute;
+   left: 0;
+   top: 300;
+ }
+
+ #square1 {
+   width: 100px;
+   	height: 50px;
+   	transform: skew(20deg);
+    background: Gold;
+    position: absolute;
+    left: 0;
+    top: 300;
+  }
+
+  #triangle1 {
+    width: 0;
+	 height: 0;
+	 border-left: 25px solid transparent;
+	 border-right: 25px solid transparent;
+	 border-top: 50px solid #111;
+     position: absolute;
+     left: 0;
+     top: 300;
+   }
