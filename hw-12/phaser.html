@@ -103,7 +103,7 @@ function create ()
     //  Input Events
     cursors = this.input.keyboard.createCursorKeys();
 
-    
+
 
     //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
     stars = this.physics.add.group({
@@ -174,7 +174,7 @@ function collectStar (player, star)
     //  Add and update the score
     score += 1000;
     scoreText.setText('Score: ' + score);
-    scoreText.setText('Level: ');
+  
 
     if (stars.countActive(true) === 0)
     {
