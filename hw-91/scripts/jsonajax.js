@@ -11,9 +11,7 @@
    $("button").click(function() {
      $.getJSON("data/pokemon.json", function(result) {
 
-       $.each(result, function(i, field) {
-         var entry = field[Math.floor(Math.random() * field.length)];
-         console.log(entry);
+
          $("#pokeHandout").text("Congratualations, you got " + entry.name + " !!!");
          $("#pokeImage").attr("src", entry.img);
          $("#pokeBeginText").fadeOut();
@@ -27,3 +25,13 @@
      });
    });
  });
+
+ $(document).ready(function() {
+
+            $("#weatherBtn").click(function(event){
+                $.getJSON("data/weather.json", function(weath) {
+                    $('#weather').text(weather.main);
+
+                });
+            });
+        });
