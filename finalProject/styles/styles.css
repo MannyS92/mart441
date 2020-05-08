@@ -31,6 +31,18 @@ h1 {
   font-size: 16px;
 }
 
+#button1 {
+  background-color: #DCDCDC ;
+
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#assi1 {
+border-style: dotted;
+}
+
 button.buttonS {
 color: #494949 !important;
 text-transform: uppercase;
